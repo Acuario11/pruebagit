@@ -1,5 +1,5 @@
 #!/bin/bash
-git add .
-git commit -m "`date`"
-git push origin master
+cd ~/Escritorio/projectnew/website/ && git add .
+cd ~/Escritorio/projectnew/website/ && git commit -m "`date`"
+cd ~/Escritorio/projectnew/website/ && git push -u origin master
 
